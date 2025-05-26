@@ -2,7 +2,6 @@
 
 Este projeto simula um sistema bancário básico utilizando Java RMI (Remote Method Invocation), permitindo a comunicação entre um cliente e um servidor de forma remota.
 
----
 
 ## 📁 Estrutura do Projeto
 
@@ -15,20 +14,17 @@ SistemaBancario/
     └── ClienteBanco.java         // Código do cliente
 ```
 
----
 
 ## 🧰 Pré-requisitos
 
 - Java JDK 21 instalado e configurado
 - Terminal de comando (cmd ou PowerShell)
 
----
 
 ## ⚙️ Compilação e Execução
 
 ### 1. Acesse a pasta `src`:
 
----
 
 ### 2. Compile todos os arquivos `.java`:
 
@@ -36,7 +32,6 @@ SistemaBancario/
 javac *.java
 ```
 
----
 
 ### 3. Inicie o `rmiregistry`:
 
@@ -46,7 +41,6 @@ start rmiregistry
 
 > ⚠️ O `rmiregistry` deve ser iniciado **dentro da pasta `src`** onde estão os `.class`.
 
----
 
 ### 4. Inicie o servidor:
 
@@ -56,7 +50,6 @@ Em outro terminal, no mesmo diretório `src`:
 java ServidorBanco
 ```
 
----
 
 ### 5. Inicie o cliente:
 
@@ -66,5 +59,4 @@ Em outro terminal, também na pasta `src`:
 java ClienteBanco
 ```
 
----
 
